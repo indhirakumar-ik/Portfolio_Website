@@ -414,6 +414,10 @@ body {
     font-size: 0.85rem;
     line-height: 1.8;
     overflow-x: auto;
+    transition: 0.5s;
+}
+.code-block pre:hover{
+    transform: scale(1.1);
 }
 
 .code-block code {
