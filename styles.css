@@ -28,7 +28,10 @@ html {
 }
 
 body {
-    font-family: cursive;
+    font-family: 'Inter', sans-serif;
+    /* Optional: Improves font rendering sharpness on screens */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
@@ -48,7 +51,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    font-family: cursive;
+    font-family: 'Inter', sans-serif;
     background: rgba(10, 10, 15, 0.85);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-color);
@@ -310,7 +313,7 @@ body {
 }
 
 .hero-greeting {
-    font-family:cursive;
+    font-family: 'Inter', sans-serif;
     color: var(--accent-secondary);
     font-size: 2.5rem;
     font-weight: 400;
@@ -326,7 +329,7 @@ body {
 .hero-name {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 700;
-    font-family:cursive;
+    font-family: 'Inter', sans-serif;
     line-height: 1.1;
     margin-bottom: 16px;
     background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
@@ -347,7 +350,7 @@ body {
     color: #ffffff;
     font-style: inherit;
     margin-bottom: 32px;
-    font-family: cursive;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn {
@@ -410,7 +413,7 @@ body {
 
 .code-block pre {
     padding: 20px;
-    font-family: cursive;
+    font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
     line-height: 1.8;
     overflow-x: auto;
@@ -719,7 +722,7 @@ section {
     padding: 4px 12px;
     border-radius: 4px;
     font-size: 0.8rem;
-    font-family: cursive;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Education Section */
