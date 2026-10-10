@@ -416,9 +416,9 @@ body {
     overflow-x: auto;
     transition: 0.5s;
 }
-.code-block pre:hover{
+/* .code-block pre:hover{
     transform: scale(1.1);
-}
+} */
 
 .code-block code {
     color: var(--text-secondary);
