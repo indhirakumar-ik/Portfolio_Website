@@ -327,7 +327,7 @@ body {
 }
 
 .hero-name {
-    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-size: clamp(2.4rem, 5vw, 4.4rem);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     line-height: 1.1;
